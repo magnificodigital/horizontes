@@ -1,0 +1,63 @@
+			.viewport_projetos {
+            float: left;
+            height: 235px;
+            overflow: hidden;
+            position: relative;
+            width: 200px;
+						}
+
+        /* This is so that the 2nd thumbnail in each row fits snugly. You will want to add a similar
+           class to the last thumbnail in each row to get rid of the margin-right. */
+        .no-margin {
+            margin-right: 0;
+        }
+
+        /* --- Link configuration that contains the image and label ----------------------------- */
+			.viewport_projetos a {
+            display: block;
+            position: relative;
+        }
+
+        .viewport_projetos a img {
+            height: 200px;
+            position: relative;
+            width: 200px;
+        }
+
+        /* --- Label configuration -------------------------------------------------------------- */
+       
+			
+			.viewport_projetos a span {
+            display: none;
+            height: 100%;
+            position: absolute;
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+            z-index: 100;
+			
+        }
+		
+		.viewport_projetos a span strong {
+      display: block;
+			font-family: 'Quattrocento Sans', sans-serif;
+      font-weight:400;
+      font-size: 13px;
+      font-weight: normal;
+			color:#FFF;
+			}
+
+        /* --- Dark hover background ------------------------------------------------------------ */
+        .dark-background {
+            background-color: rgba(240, 147, 16, 0.8);
+            color: #fff;
+				}
+				
+            .dark-background em {
+                color: #ccc;
+            }
+
+        /**
+         * You could create multiple hover background classes for different looks depending on the
+         * image type. Use your imagination!
+         */
